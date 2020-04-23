@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>improve-每天进步一点点</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.improve.ga/"/>
+  <updated>2020-04-22T15:07:13.443Z</updated>
+  <id>http://www.improve.ga/</id>
+  
+  <author>
+    <name>郜世峰</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>QQ和微信上网址被拦截的解决办法</title>
+    <link href="http://www.improve.ga/2020/04/22/0419/"/>
+    <id>http://www.improve.ga/2020/04/22/0419/</id>
+    <published>2020-04-22T06:29:37.000Z</published>
+    <updated>2020-04-22T15:07:13.443Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>QQ和微信上网址被拦截的解决办法</strong></p><p><img src="http://www.improve.ga/improve.github.io//img/20200422224556.jpg" alt="QQ和微信上网址被拦截的解决办法"></p><p>如图我们被拦截可以点击左下角的申请恢复访问然后按照提示即可</p><p>24小时内 腾讯便会邮箱回复结果</p><p><img src="http://www.improve.ga/improve.github.io//img/20200422230118.png" alt="QQ和微信上网址被拦截的解决办法"></p><p>也可通过腾讯的官方网站进行申诉解决<br>官网：<a href="https://urlsec.qq.com/complain.html" target="_blank" rel="noopener">https://urlsec.qq.com/complain.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;QQ和微信上网址被拦截的解决办法&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.improve.ga/improve.github.io//img/20200422224556.jpg&quot; alt=&quot;QQ和微信上网址被拦截的解决办法
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Github图库测试</title>
+    <link href="http://www.improve.ga/2020/04/20/Github%E5%9B%BE%E5%BA%8A%E6%B5%8B%E8%AF%95/"/>
+    <id>http://www.improve.ga/2020/04/20/Github%E5%9B%BE%E5%BA%8A%E6%B5%8B%E8%AF%95/</id>
+    <published>2020-04-20T00:29:46.000Z</published>
+    <updated>2020-04-21T12:43:31.718Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>本帖为测试Github图库测试</strong><br>实例：<br><img src="http://www.improve.ga/improve.github.io//img/15194389-cacc481080cf629e.webp" alt="测试Github图库示例图片"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;本帖为测试Github图库测试&lt;/strong&gt;&lt;br&gt;实例：&lt;br&gt;&lt;img src=&quot;http://www.improve.ga/improve.github.io//img/15194389-cacc481080cf629e.webp&quot; alt=&quot;测试
+      
+    
+    </summary>
+    
+    
+    
+      <category term="测试" scheme="http://www.improve.ga/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试Hexo图片的上传功能</title>
+    <link href="http://www.improve.ga/2020/04/19/ceshi/"/>
+    <id>http://www.improve.ga/2020/04/19/ceshi/</id>
+    <published>2020-04-19T13:24:43.000Z</published>
+    <updated>2020-04-19T13:47:40.337Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="测试图片上传功能"><a href="#测试图片上传功能" class="headerlink" title="测试图片上传功能"></a>测试图片上传功能</h2><p>下面为示例图，测试图片功能<br><img src="/2020/04/19/ceshi/1.jpg" alt="示例图"></p><p>在这里强烈建议一下Hexo 出一个可以同步的可视化文章编辑工具  用一些代码编辑器写文章是真的累。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;测试图片上传功能&quot;&gt;&lt;a href=&quot;#测试图片上传功能&quot; class=&quot;headerlink&quot; title=&quot;测试图片上传功能&quot;&gt;&lt;/a&gt;测试图片上传功能&lt;/h2&gt;&lt;p&gt;下面为示例图，测试图片功能&lt;br&gt;&lt;img src=&quot;/2020/04/19/ceshi/1
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Hexo" scheme="http://www.improve.ga/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>扫码挪车二维码生成程序开源</title>
+    <link href="http://www.improve.ga/2020/04/19/0422/"/>
+    <id>http://www.improve.ga/2020/04/19/0422/</id>
+    <published>2020-04-19T06:29:37.000Z</published>
+    <updated>2020-04-23T07:49:07.177Z</updated>
+    
+    <content type="html"><![CDATA[<p>疫情宅在家里，属实是无聊透顶，博主为了打磨时间于是就尝试着写了一个扫码挪车二维码的生成程序。效果如下：</p><p><img src="http://www.improve.ga/improve.github.io//img/ddadadjdafadaadwsadw.png" alt="扫码挪车二维码效果图"></p><p>大家可以通过访问 <a href="http://zjbnb.club" target="_blank" rel="noopener">扫码挪车二维码在线生成</a> 试用</p><h2 id="扫码挪车二维码开源程序"><a href="#扫码挪车二维码开源程序" class="headerlink" title="扫码挪车二维码开源程序"></a>扫码挪车二维码开源程序</h2><p>采用php原生语言</p><p>conn.php → 链接数据库</p><p>index.php → 首页</p><p>index_pd.php → 首页判断页面</p><p>saoma.php → 一般不需修改</p><p>采用了草料二维码的api接口</p><p>本人第一次写程序 有很多不足的地方希望大家指导</p><p>GitHub地址：<a href="https://github.com/Gao-Shi-Feng/saoma" target="_blank" rel="noopener">https://github.com/Gao-Shi-Feng/saoma</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;疫情宅在家里，属实是无聊透顶，博主为了打磨时间于是就尝试着写了一个扫码挪车二维码的生成程序。效果如下：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.improve.ga/improve.github.io//img/ddadadjdafadaadwsadw.pn
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Github项目开源" scheme="http://www.improve.ga/tags/Github%E9%A1%B9%E7%9B%AE%E5%BC%80%E6%BA%90/"/>
+    
+  </entry>
+  
+</feed>

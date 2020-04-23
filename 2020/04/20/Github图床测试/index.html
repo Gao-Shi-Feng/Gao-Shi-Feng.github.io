@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="/css/style.css">
 
     <script id="hexo-configurations">
-    let CONFIG = {"hostname":"www.improve.ga","root":"/","localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"themeInfo":{"name":"ILS","version":"1.0.0","author":"XPoet","repository":"https://github.com/XPoet/hexo-theme-ils"},"codeblock":{"style":"flat","copy_button":{"enable":true}},"path":"search.xml"};
+    let CONFIG = {"hostname":"www.improve.ga","root":"/","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":true,"preload":true},"themeInfo":{"name":"ILS","version":"1.0.0","author":"XPoet","repository":"https://github.com/XPoet/hexo-theme-ils"},"codeblock":{"style":"flat","copy_button":{"enable":true}},"path":"search.xml"};
   </script>
 <meta name="generator" content="Hexo 4.2.0"></head>
 
@@ -123,6 +123,10 @@
         </span>
     
     
+        <span class="article-pv article-meta-item">
+            <i class="fa fa-eye"></i> <span id="busuanzi_value_page_pv"></span>
+        </span>
+    
 </div>
     </div>
 
@@ -196,9 +200,20 @@
             <div class="tools-container">
     <ul class="tools-list">
         
+            <li class="search popup-trigger">
+                <i class="fa fa-search"></i>
+            </li>
+            
+<script src="/js/local-search.js"></script>
+
+        
         <li class="mode-toggle">
             <i class="fa fa-moon-o"></i>
         </li>
+        
+            <li class="rss">
+                <a href="atom.xml" target="_blank"><i class="fa fa-rss"></i></a>
+            </li>
         
     </ul>
 </div>
@@ -220,8 +235,50 @@
         </div>
 
         
+            <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <div class="website-count info-item">
+                
+                    <span id="busuanzi_container_site_uv" style="display: none">
+                        访问人数<span id="busuanzi_value_site_uv"></span>
+                    </span>
+                
+                
+                    <span id="busuanzi_container_site_pv" style="display: none">
+                        总访问量<span id="busuanzi_value_site_pv"></span>
+                    </span>
+                
+            </div>
+        
     </div>
 </footer>
+    </div>
+</div>
+
+    <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+          <span class="search-icon">
+            <i class="fa fa-search"></i>
+          </span>
+            <div class="search-input-container">
+                <input autocomplete="off"
+                       autocorrect="off"
+                       autocapitalize="off"
+                       placeholder="搜索..."
+                       spellcheck="false"
+                       type="search"
+                       class="search-input"
+                >
+            </div>
+            <span class="popup-btn-close">
+                <i class="fa fa-times"></i>
+            </span>
+        </div>
+        <div id="search-result">
+            <div id="no-result">
+                <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+            </div>
+        </div>
     </div>
 </div>
 
