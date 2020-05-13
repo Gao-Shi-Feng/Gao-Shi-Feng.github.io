@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>improve-每天进步一点点</title>
+  <title>improve-改变自己</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.improve.ga/"/>
-  <updated>2020-04-22T15:07:13.443Z</updated>
+  <updated>2020-05-13T13:24:54.583Z</updated>
   <id>http://www.improve.ga/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Nano pi/树莓派及arm架构，Ubuntu下找不到包问题</title>
+    <link href="http://www.improve.ga/2020/05/13/0513/"/>
+    <id>http://www.improve.ga/2020/05/13/0513/</id>
+    <published>2020-05-13T13:14:37.000Z</published>
+    <updated>2020-05-13T13:24:54.583Z</updated>
+    
+    <content type="html"><![CDATA[<p>近日，卑微的小编68米在某鱼淘了一个nanopi 2Fire（烈火版）的开发板，用来做服务器+nas。</p><p><img src="http://www.improve.ga/improve.github.io//img/13-204420.jpg" alt="Nanopi"></p><p>板子就长这样，然后sd卡烧写Ubuntu 系统，正常开机，但是 快节奏的我怎么能满足于 官方源的龟速呢。所以，就换源嘛 由于开发板使用的是arm架构 ，而百度的ubuntu国内源 基本都是基于x86的。于是，就出现了下边的问题。</p><p><img src="http://www.improve.ga/improve.github.io//img/Q20200513210039.png" alt="问题"></p><h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>首先打开配置源的文件</p><blockquote><p>vim /etc/apt/sources.list</p></blockquote><p>将官方源注释（前方加#）并加入以下源，亲测可用，理论基于arm架构的开发板都可用。</p><blockquote><p>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial main multiverse restricted universe<br>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-backports main multiverse restricted universe<br>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-proposed main multiverse restricted universe<br>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-security main multiverse restricted universe<br>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-updates main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-backports main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-proposed main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-security main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-updates main multiverse restricted universe</p></blockquote><p>然后 保存退出。</p><blockquote><p>sudo apt-get update</p></blockquote><p>输入上边命令，可以看到比官方源快了很多。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;近日，卑微的小编68米在某鱼淘了一个nanopi 2Fire（烈火版）的开发板，用来做服务器+nas。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://www.improve.ga/improve.github.io//img/13-204420.jpg&quot; alt=&quot;Nan
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Nano pi，树莓派，Ubuntu" scheme="http://www.improve.ga/tags/Nano-pi%EF%BC%8C%E6%A0%91%E8%8E%93%E6%B4%BE%EF%BC%8CUbuntu/"/>
+    
+  </entry>
   
   <entry>
     <title>QQ和微信上网址被拦截的解决办法</title>
@@ -92,9 +117,9 @@
     <link href="http://www.improve.ga/2020/04/19/0422/"/>
     <id>http://www.improve.ga/2020/04/19/0422/</id>
     <published>2020-04-19T06:29:37.000Z</published>
-    <updated>2020-04-23T07:49:07.177Z</updated>
+    <updated>2020-05-13T13:12:54.389Z</updated>
     
-    <content type="html"><![CDATA[<p>疫情宅在家里，属实是无聊透顶，博主为了打磨时间于是就尝试着写了一个扫码挪车二维码的生成程序。效果如下：</p><p><img src="http://www.improve.ga/improve.github.io//img/ddadadjdafadaadwsadw.png" alt="扫码挪车二维码效果图"></p><p>大家可以通过访问 <a href="http://zjbnb.club" target="_blank" rel="noopener">扫码挪车二维码在线生成</a> 试用</p><h2 id="扫码挪车二维码开源程序"><a href="#扫码挪车二维码开源程序" class="headerlink" title="扫码挪车二维码开源程序"></a>扫码挪车二维码开源程序</h2><p>采用php原生语言</p><p>conn.php → 链接数据库</p><p>index.php → 首页</p><p>index_pd.php → 首页判断页面</p><p>saoma.php → 一般不需修改</p><p>采用了草料二维码的api接口</p><p>本人第一次写程序 有很多不足的地方希望大家指导</p><p>GitHub地址：<a href="https://github.com/Gao-Shi-Feng/saoma" target="_blank" rel="noopener">https://github.com/Gao-Shi-Feng/saoma</a></p>]]></content>
+    <content type="html"><![CDATA[<p>疫情宅在家里，属实是无聊透顶，博主为了打磨时间于是就尝试着写了一个扫码挪车二维码的生成程序。效果如下：</p><p><img src="http://www.improve.ga/improve.github.io//img/ddadadjdafadaadwsadw.png" alt="扫码挪车二维码效果图"></p><p>大家可以通过访问 <a href="http://www.rapbang.cn/saoma/" target="_blank" rel="noopener">扫码挪车二维码在线生成</a> 试用</p><h2 id="扫码挪车二维码开源程序"><a href="#扫码挪车二维码开源程序" class="headerlink" title="扫码挪车二维码开源程序"></a>扫码挪车二维码开源程序</h2><p>采用php原生语言</p><p>conn.php → 链接数据库</p><p>index.php → 首页</p><p>index_pd.php → 首页判断页面</p><p>saoma.php → 一般不需修改</p><p>采用了草料二维码的api接口</p><p>本人第一次写程序 有很多不足的地方希望大家指导</p><p>GitHub地址：<a href="https://github.com/Gao-Shi-Feng/saoma" target="_blank" rel="noopener">https://github.com/Gao-Shi-Feng/saoma</a></p>]]></content>
     
     <summary type="html">
     
