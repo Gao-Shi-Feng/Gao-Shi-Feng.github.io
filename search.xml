@@ -1,96 +1,95 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>Nano pi/树莓派及arm架构，Ubuntu下找不到包问题</title>
-      <link href="/2020/05/13/0513/"/>
-      <url>/2020/05/13/0513/</url>
-      
-        <content type="html"><![CDATA[<p>近日，卑微的小编68米在某鱼淘了一个nanopi 2Fire（烈火版）的开发板，用来做服务器+nas。</p><p><img src="http://www.improve.ga/improve.github.io//img/13-204420.jpg" alt="Nanopi"></p><p>板子就长这样，然后sd卡烧写Ubuntu 系统，正常开机，但是 快节奏的我怎么能满足于 官方源的龟速呢。所以，就换源嘛 由于开发板使用的是arm架构 ，而百度的ubuntu国内源 基本都是基于x86的。于是，就出现了下边的问题。</p><p><img src="http://www.improve.ga/improve.github.io//img/Q20200513210039.png" alt="问题"></p><h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>首先打开配置源的文件</p><blockquote><p>vim /etc/apt/sources.list</p></blockquote><p>将官方源注释（前方加#）并加入以下源，亲测可用，理论基于arm架构的开发板都可用。</p><blockquote><p>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial main multiverse restricted universe<br>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-backports main multiverse restricted universe<br>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-proposed main multiverse restricted universe<br>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-security main multiverse restricted universe<br>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-updates main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-backports main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-proposed main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-security main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-updates main multiverse restricted universe</p></blockquote><p>然后 保存退出。</p><blockquote><p>sudo apt-get update</p></blockquote><p>输入上边命令，可以看到比官方源快了很多。</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Nano pi，树莓派，Ubuntu </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>QQ和微信上网址被拦截的解决办法</title>
-      <link href="/2020/04/22/0419/"/>
-      <url>/2020/04/22/0419/</url>
-      
-        <content type="html"><![CDATA[<p><strong>QQ和微信上网址被拦截的解决办法</strong></p><p><img src="http://www.improve.ga/improve.github.io//img/20200422224556.jpg" alt="QQ和微信上网址被拦截的解决办法"></p><p>如图我们被拦截可以点击左下角的申请恢复访问然后按照提示即可</p><p>24小时内 腾讯便会邮箱回复结果</p><p><img src="http://www.improve.ga/improve.github.io//img/20200422230118.png" alt="QQ和微信上网址被拦截的解决办法"></p><p>也可通过腾讯的官方网站进行申诉解决<br>官网：<a href="https://urlsec.qq.com/complain.html" target="_blank" rel="noopener">https://urlsec.qq.com/complain.html</a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Github图库测试</title>
-      <link href="/2020/04/20/Github%E5%9B%BE%E5%BA%8A%E6%B5%8B%E8%AF%95/"/>
-      <url>/2020/04/20/Github%E5%9B%BE%E5%BA%8A%E6%B5%8B%E8%AF%95/</url>
-      
-        <content type="html"><![CDATA[<p><strong>本帖为测试Github图库测试</strong><br>实例：<br><img src="http://www.improve.ga/improve.github.io//img/15194389-cacc481080cf629e.webp" alt="测试Github图库示例图片"></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> 测试 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>测试Hexo图片的上传功能</title>
-      <link href="/2020/04/19/ceshi/"/>
-      <url>/2020/04/19/ceshi/</url>
-      
-        <content type="html"><![CDATA[<h2 id="测试图片上传功能"><a href="#测试图片上传功能" class="headerlink" title="测试图片上传功能"></a>测试图片上传功能</h2><p>下面为示例图，测试图片功能<br><img src="/2020/04/19/ceshi/1.jpg" alt="示例图"></p><p>在这里强烈建议一下Hexo 出一个可以同步的可视化文章编辑工具  用一些代码编辑器写文章是真的累。</p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>扫码挪车二维码生成程序开源</title>
-      <link href="/2020/04/19/0422/"/>
-      <url>/2020/04/19/0422/</url>
-      
-        <content type="html"><![CDATA[<p>疫情宅在家里，属实是无聊透顶，博主为了打磨时间于是就尝试着写了一个扫码挪车二维码的生成程序。效果如下：</p><p><img src="http://www.improve.ga/improve.github.io//img/ddadadjdafadaadwsadw.png" alt="扫码挪车二维码效果图"></p><p>大家可以通过访问 <a href="http://www.rapbang.cn/saoma/" target="_blank" rel="noopener">扫码挪车二维码在线生成</a> 试用</p><h2 id="扫码挪车二维码开源程序"><a href="#扫码挪车二维码开源程序" class="headerlink" title="扫码挪车二维码开源程序"></a>扫码挪车二维码开源程序</h2><p>采用php原生语言</p><p>conn.php → 链接数据库</p><p>index.php → 首页</p><p>index_pd.php → 首页判断页面</p><p>saoma.php → 一般不需修改</p><p>采用了草料二维码的api接口</p><p>本人第一次写程序 有很多不足的地方希望大家指导</p><p>GitHub地址：<a href="https://github.com/Gao-Shi-Feng/saoma" target="_blank" rel="noopener">https://github.com/Gao-Shi-Feng/saoma</a></p>]]></content>
-      
-      
-      
-        <tags>
-            
-            <tag> Github项目开源 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+<search>
+  <entry>
+    <title>扫码挪车二维码生成程序开源</title>
+    <url>/2020/04/19/0422/</url>
+    <content><![CDATA[<p>疫情宅在家里，属实是无聊透顶，博主为了打磨时间于是就尝试着写了一个扫码挪车二维码的生成程序。效果如下：</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/ddadadjdafadaadwsadw.png" alt="扫码挪车二维码效果图"></p>
+<p>大家可以通过访问 <a href="http://www.rapbang.cn/saoma/" target="_blank" rel="noopener">扫码挪车二维码在线生成</a> 试用</p>
+<h2 id="扫码挪车二维码开源程序"><a href="#扫码挪车二维码开源程序" class="headerlink" title="扫码挪车二维码开源程序"></a>扫码挪车二维码开源程序</h2><p>采用php原生语言</p>
+<p>conn.php → 链接数据库</p>
+<p>index.php → 首页</p>
+<p>index_pd.php → 首页判断页面</p>
+<p>saoma.php → 一般不需修改</p>
+<p>采用了草料二维码的api接口</p>
+<p>本人第一次写程序 有很多不足的地方希望大家指导</p>
+<p>GitHub地址：<a href="https://github.com/Gao-Shi-Feng/saoma" target="_blank" rel="noopener">https://github.com/Gao-Shi-Feng/saoma</a></p>
+]]></content>
+      <tags>
+        <tag>Github项目开源</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>白嫖宝塔面板专业版</title>
+    <url>/2020/05/15/0515/</url>
+    <content><![CDATA[<p>相信自己搭过网站的小伙伴们，都用过宝塔 就算没用过 那也肯定或多或少的听说过宝塔。</p>
+<p>宝塔是一款可以一键搭建web环境的运维面板， 支持一键LAMP/LNMP/集群/监控/网站/FTP/数据库/JAVA等100多项服务器管理功能 。虽然我没在用 但是也确实挺好用。</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/-3ae4fa4b1d9a88ca.jpg" alt="宝塔"></p>
+<p>宝塔分为免费版和付费版，我们平常使用是免费版 今天教大家如何白嫖专业版 。</p>
+<h3 id="白嫖宝塔专业版"><a href="#白嫖宝塔专业版" class="headerlink" title="白嫖宝塔专业版"></a>白嫖宝塔专业版</h3><p>输入以下命令</p>
+<blockquote>
+<p> curl -s -k <a href="https://api.moleft.cn/bt/update" target="_blank" rel="noopener">https://api.moleft.cn/bt/update</a> | bash -s - </p>
+</blockquote>
+<p>在此感谢这位群友的贡献</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/79ef87112f2ba956.png" alt></p>
+]]></content>
+      <tags>
+        <tag>宝塔</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Nano pi/树莓派及arm架构，Ubuntu下找不到包问题</title>
+    <url>/2020/05/13/0513/</url>
+    <content><![CDATA[<p>近日，卑微的小编68米在某鱼淘了一个nanopi 2Fire（烈火版）的开发板，用来做服务器+nas。</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/13-204420.jpg" alt="Nanopi"></p>
+<p>板子就长这样，然后sd卡烧写Ubuntu 系统，正常开机，但是 快节奏的我怎么能满足于 官方源的龟速呢。所以，就换源嘛 由于开发板使用的是arm架构 ，而百度的ubuntu国内源 基本都是基于x86的。于是，就出现了下边的问题。</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/Q20200513210039.png" alt="问题"></p>
+<h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>首先打开配置源的文件</p>
+<blockquote>
+<p>vim /etc/apt/sources.list</p>
+</blockquote>
+<p>将官方源注释（前方加#）并加入以下源，亲测可用，理论基于arm架构的开发板都可用。</p>
+<blockquote>
+<p>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial main multiverse restricted universe<br>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-backports main multiverse restricted universe<br>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-proposed main multiverse restricted universe<br>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-security main multiverse restricted universe<br>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-updates main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-backports main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-proposed main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-security main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-updates main multiverse restricted universe</p>
+</blockquote>
+<p>然后 保存退出。</p>
+<blockquote>
+<p>sudo apt-get update</p>
+</blockquote>
+<p>输入上边命令，可以看到比官方源快了很多。</p>
+]]></content>
+      <tags>
+        <tag>Nano pi，树莓派，Ubuntu</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>QQ和微信上网址被拦截的解决办法</title>
+    <url>/2020/04/22/0419/</url>
+    <content><![CDATA[<p><strong>QQ和微信上网址被拦截的解决办法</strong></p>
+<p><img src="http://www.improve.ga/improve.github.io//img/20200422224556.jpg" alt="QQ和微信上网址被拦截的解决办法"></p>
+<p>如图我们被拦截可以点击左下角的申请恢复访问然后按照提示即可</p>
+<p>24小时内 腾讯便会邮箱回复结果</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/20200422230118.png" alt="QQ和微信上网址被拦截的解决办法"></p>
+<p>也可通过腾讯的官方网站进行申诉解决<br>官网：<a href="https://urlsec.qq.com/complain.html" target="_blank" rel="noopener">https://urlsec.qq.com/complain.html</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Github图库测试</title>
+    <url>/2020/04/20/Github%E5%9B%BE%E5%BA%8A%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p><strong>本帖为测试Github图库测试</strong><br>实例：<br><img src="http://www.improve.ga/improve.github.io//img/15194389-cacc481080cf629e.webp" alt="测试Github图库示例图片"></p>
+]]></content>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>测试Hexo图片的上传功能</title>
+    <url>/2020/04/19/ceshi/</url>
+    <content><![CDATA[<h2 id="测试图片上传功能"><a href="#测试图片上传功能" class="headerlink" title="测试图片上传功能"></a>测试图片上传功能</h2><p>下面为示例图，测试图片功能<br><img src="/2020/04/19/ceshi/1.jpg" alt="示例图"></p>
+<p>在这里强烈建议一下Hexo 出一个可以同步的可视化文章编辑工具  用一些代码编辑器写文章是真的累。</p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
 </search>

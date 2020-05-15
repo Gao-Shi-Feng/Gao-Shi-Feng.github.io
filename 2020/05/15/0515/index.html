@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     
     <title>
-        Nano pi/树莓派及arm架构，Ubuntu下找不到包问题 | improve-改变自己
+        白嫖宝塔面板专业版 | improve-改变自己
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
@@ -101,13 +101,13 @@
                 
                     <div class="article-content-container">
     <div class="article-title">
-        <h3><a class="title-hover-animation">Nano pi/树莓派及arm架构，Ubuntu下找不到包问题</a></h3>
+        <h3><a class="title-hover-animation">白嫖宝塔面板专业版</a></h3>
     </div>
 
     <div class="meta-info">
         <div class="article-meta-info">
     <span class="article-date article-meta-item">
-        <i class="fa fa-calendar-o"></i> 2020-05-13 21:14:37
+        <i class="fa fa-calendar-o"></i> 2020-05-15 20:49:37
     </span>
     
     
@@ -116,7 +116,7 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/Nano-pi%EF%BC%8C%E6%A0%91%E8%8E%93%E6%B4%BE%EF%BC%8CUbuntu/">Nano pi，树莓派，Ubuntu</a>
+                        <a href="/tags/%E5%AE%9D%E5%A1%94/">宝塔</a>
                     </li>
                 
             </ul>
@@ -131,38 +131,25 @@
     </div>
 
     <div class="article-content markdown-body">
-        <p>近日，卑微的小编68米在某鱼淘了一个nanopi 2Fire（烈火版）的开发板，用来做服务器+nas。</p>
-<p><img src="http://www.improve.ga/improve.github.io//img/13-204420.jpg" alt="Nanopi"></p>
-<p>板子就长这样，然后sd卡烧写Ubuntu 系统，正常开机，但是 快节奏的我怎么能满足于 官方源的龟速呢。所以，就换源嘛 由于开发板使用的是arm架构 ，而百度的ubuntu国内源 基本都是基于x86的。于是，就出现了下边的问题。</p>
-<p><img src="http://www.improve.ga/improve.github.io//img/Q20200513210039.png" alt="问题"></p>
-<h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>首先打开配置源的文件</p>
+        <p>相信自己搭过网站的小伙伴们，都用过宝塔 就算没用过 那也肯定或多或少的听说过宝塔。</p>
+<p>宝塔是一款可以一键搭建web环境的运维面板， 支持一键LAMP/LNMP/集群/监控/网站/FTP/数据库/JAVA等100多项服务器管理功能 。虽然我没在用 但是也确实挺好用。</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/-3ae4fa4b1d9a88ca.jpg" alt="宝塔"></p>
+<p>宝塔分为免费版和付费版，我们平常使用是免费版 今天教大家如何白嫖专业版 。</p>
+<h3 id="白嫖宝塔专业版"><a href="#白嫖宝塔专业版" class="headerlink" title="白嫖宝塔专业版"></a>白嫖宝塔专业版</h3><p>输入以下命令</p>
 <blockquote>
-<p>vim /etc/apt/sources.list</p>
+<p> curl -s -k <a href="https://api.moleft.cn/bt/update" target="_blank" rel="noopener">https://api.moleft.cn/bt/update</a> | bash -s - </p>
 </blockquote>
-<p>将官方源注释（前方加#）并加入以下源，亲测可用，理论基于arm架构的开发板都可用。</p>
-<blockquote>
-<p>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial main multiverse restricted universe<br>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-backports main multiverse restricted universe<br>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-proposed main multiverse restricted universe<br>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-security main multiverse restricted universe<br>deb <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-updates main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-backports main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-proposed main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-security main multiverse restricted universe<br>deb-src <a href="http://mirrors.ustc.edu.cn/ubuntu-ports/" target="_blank" rel="noopener">http://mirrors.ustc.edu.cn/ubuntu-ports/</a> xenial-updates main multiverse restricted universe</p>
-</blockquote>
-<p>然后 保存退出。</p>
-<blockquote>
-<p>sudo apt-get update</p>
-</blockquote>
-<p>输入上边命令，可以看到比官方源快了很多。</p>
+<p>在此感谢这位群友的贡献</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/79ef87112f2ba956.png" alt></p>
 
     </div>
 
     <div class="article-nav">
         
-            <div class="article-prev">
-                <a class="prev btn" rel="prev"
-                   href="/2020/05/15/0515/"><i class="fa fa-chevron-left"></i> 白嫖宝塔面板专业版
-                </a>
-            </div>
-        
         
             <div class="article-next">
                 <a class="next btn" rel="next"
-                   href="/2020/04/22/0419/">QQ和微信上网址被拦截的解决办法 <i class="fa fa-chevron-right"></i>
+                   href="/2020/05/13/0513/">Nano pi/树莓派及arm架构，Ubuntu下找不到包问题 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
         
@@ -206,7 +193,7 @@
             <div class="sidebar-toc">
                 <div class="post-toc-wrap">
     <div class="post-toc">
-        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#解决办法"><span class="nav-number">1.</span> <span class="nav-text">解决办法</span></a></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#白嫖宝塔专业版"><span class="nav-number">1.</span> <span class="nav-text">白嫖宝塔专业版</span></a></li></ol>
     </div>
 </div>
             </div>
