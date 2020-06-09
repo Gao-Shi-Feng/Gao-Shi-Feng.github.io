@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     
     <title>
-        archive: 2020/5 | improve-改变自己
+        学Python遇到那些坑，引用random随机数模块的问题 | improve-改变自己
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
@@ -44,7 +44,7 @@
                 </li>
             
                 <li class="menu-item">
-                    <a class="active"
+                    <a class=""
                        href="/archives"
                     >
                         归档
@@ -75,7 +75,7 @@
                 </li>
             
                 <li class="drawer-menu-item">
-                    <a class="active"
+                    <a class=""
                        href="/archives">归档</a>
                 </li>
             
@@ -99,74 +99,86 @@
         <main class="main-content normal-code-theme">
             <div class="main-content-left">
                 
-                    
-<div class="archive-container">
+                    <div class="article-content-container">
+    <div class="article-title">
+        <h3><a class="title-hover-animation">学Python遇到那些坑，引用random随机数模块的问题</a></h3>
+    </div>
+
+    <div class="meta-info">
+        <div class="article-meta-info">
+    <span class="article-date article-meta-item">
+        <i class="fa fa-calendar-o"></i> 2020-06-09 11:16:37
+    </span>
     
-        <section class="archive-item">
-            <div class="archive-item-header">
-                <span class="archive-year">2020</span>
-            </div>
-            <ul class="article-list">
+    
+        <span class="article-tags article-meta-item">
+            <i class="fa fa-tags"></i>
+            <ul>
                 
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2020/06/09/0609/"
-                        >学Python遇到那些坑，引用random随机数模块的问题</a>
-                        <span class="article-date">06-09</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2020/05/16/0516/"
-                        >文采学堂自动刷课脚本及使用教程</a>
-                        <span class="article-date">05-16</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2020/05/15/0515/"
-                        >白嫖宝塔面板专业版</a>
-                        <span class="article-date">05-15</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2020/05/13/0513/"
-                        >Nano pi/树莓派及arm架构，Ubuntu下找不到包问题</a>
-                        <span class="article-date">05-13</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2020/04/22/0419/"
-                        >QQ和微信上网址被拦截的解决办法</a>
-                        <span class="article-date">04-22</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2020/04/20/Github%E5%9B%BE%E5%BA%8A%E6%B5%8B%E8%AF%95/"
-                        >Github图库测试</a>
-                        <span class="article-date">04-20</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2020/04/19/ceshi/"
-                        >测试Hexo图片的上传功能</a>
-                        <span class="article-date">04-19</span>
-                    </li>
-                
-                    <li class="article-item">
-                        <a class="article-title"
-                           href="/2020/04/19/0422/"
-                        >扫码挪车二维码生成程序开源</a>
-                        <span class="article-date">04-19</span>
+                    <li>
+                        <a href="/tags/python/">python</a>
                     </li>
                 
             </ul>
-        </section>
+        </span>
     
+    
+        <span class="article-pv article-meta-item">
+            <i class="fa fa-eye"></i> <span id="busuanzi_value_page_pv"></span>
+        </span>
+    
+</div>
+    </div>
+
+    <div class="article-content markdown-body">
+        <h3 id><a href="#" class="headerlink" title></a></h3><p> 今天学随机数的时候遇到的问题，运行报下边的错误。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ImportError: cannot <span class="keyword">import</span> name <span class="string">'randint'</span> <span class="keyword">from</span> partially initialized module <span class="string">'random'</span> (most likely due to a circular <span class="keyword">import</span>) (G:\python-study\random.py)</span><br></pre></td></tr></table></figure>
+
+<p>如图:</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/20200609103137.jpg" alt="Python"></p>
+<p>产生这样问题的原因也很简单，因为我在给文件名的时候用到了 random.py </p>
+<p>跟引用的random库名重复。工作目录包含在导入语句的搜素路径中，有任何试图使用标准库中的文件都会优先返回工作路径中的文件，而不去搜索python配置路径下的lib中的标准文件。</p>
+<p>我重命名文件为rand.py后，执行正常。　</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/hafhafhafjahifhusfhs.png" alt="Python"></p>
+
+    </div>
+
+    <div class="article-nav">
+        
+        
+            <div class="article-next">
+                <a class="next btn" rel="next"
+                   href="/2020/05/16/0516/">文采学堂自动刷课脚本及使用教程 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+        
+    </div>
+
+    <div class="comment-container">
+        <div class="comments-container">
+    
+        
+    <div class="valine-container">
+        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+        <div id="vcomments"></div>
+        <script>
+            new Valine({
+                el: '#vcomments',
+                appId: 'Ch3OVJjP4KQOTp1VIkM25YHf-gzGzoHsz',
+                appKey: 'zEG6YHfiH3AsME5Q2ymnJe1p',
+                notify: 'true',
+                verify: 'true',
+                avatar: 'wavatar',
+                placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!',
+                lang: 'zh-CN'.toLowerCase()
+            })
+        </script>
+    </div>
+
+
+    
+</div>
+    </div>
 </div>
 
                 
@@ -176,6 +188,14 @@
             </div>
         </main>
 
+        
+            <div class="sidebar-toc">
+                <div class="post-toc-wrap">
+    <div class="post-toc">
+        <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#"><span class="nav-number">1.</span> <span class="nav-text"></span></a></li></ol>
+    </div>
+</div>
+            </div>
         
 
         <div class="sidebar-tools">
@@ -280,6 +300,21 @@
 <script src="/js/toggle-mode.js"></script>
 <script src="/js/scroll-to-top.js"></script>
 
+
+
+
+    
+        
+<script src="/js/code-copy.js"></script>
+
+    
+
+    
+        
+<script src="/lib/anime.min.js"></script>
+<script src="/js/toc.js"></script>
+
+    
 
 
 
