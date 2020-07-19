@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     
     <title>
-        学Python遇到那些坑，引用random随机数模块的问题 | improve-改变自己
+        遭受暴击  我的在Github托管的代码和博客被封存送往北极了 | improve-改变自己
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
@@ -101,13 +101,13 @@
                 
                     <div class="article-content-container">
     <div class="article-title">
-        <h3><a class="title-hover-animation">学Python遇到那些坑，引用random随机数模块的问题</a></h3>
+        <h3><a class="title-hover-animation">遭受暴击  我的在Github托管的代码和博客被封存送往北极了</a></h3>
     </div>
 
     <div class="meta-info">
         <div class="article-meta-info">
     <span class="article-date article-meta-item">
-        <i class="fa fa-calendar-o"></i> 2020-06-09 11:16:37
+        <i class="fa fa-calendar-o"></i> 2020-07-19 15:29:37
     </span>
     
     
@@ -116,7 +116,7 @@
             <ul>
                 
                     <li>
-                        <a href="/tags/python/">python</a>
+                        <a href="/tags/Arctic-Code-Vault/">Arctic Code Vault</a>
                     </li>
                 
             </ul>
@@ -131,30 +131,35 @@
     </div>
 
     <div class="article-content markdown-body">
-        <p> 今天学随机数的时候遇到的问题，运行报下边的错误。</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ImportError: cannot <span class="keyword">import</span> name <span class="string">'randint'</span> <span class="keyword">from</span> partially initialized module <span class="string">'random'</span> (most likely due to a circular <span class="keyword">import</span>) (G:\python-study\random.py)</span><br></pre></td></tr></table></figure>
-
-<p>如图:</p>
-<p><img src="http://www.improve.ga/improve.github.io//img/20200609103137.jpg" alt="Python"></p>
-<p>产生这样问题的原因也很简单，因为我在给文件名的时候用到了 random.py </p>
-<p>跟引用的random库名重复。工作目录包含在导入语句的搜素路径中，有任何试图使用标准库中的文件都会优先返回工作路径中的文件，而不去搜索python配置路径下的lib中的标准文件。</p>
-<p>我重命名文件为rand.py后，执行正常。　</p>
-<p><img src="http://www.improve.ga/improve.github.io//img/hafhafhafjahifhusfhs.png" alt="Python"></p>
+        <p>事情是这样的，今天突然发现我的GitHub主页上出现了一个新的徽章「Arctic Code Vault Contributor」，翻译过来是「北极代码保险库贡献者」，好奇心驱使下我就对这个Arctic Code Vault（北极代码保险库）了解了一番。 一了解不要紧，瞬间感觉五雷轰顶。</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/vea20200719152553.png" alt="Github托管的代码和博客被封存送往北极了"></p>
+<h4 id="什么是Arctic-Code-Vault？"><a href="#什么是Arctic-Code-Vault？" class="headerlink" title="什么是Arctic Code Vault？"></a>什么是Arctic Code Vault？</h4><p>Arctic Code Vault是GitHub在2019年11月14日公开的计划，这个计划主要内容是将开源代码长期保存下来，使用Piql AS公司制造的胶片，表面有氧化铁粉涂层，Piql称在正常条件下这种材料能保存750年，在寒冷干燥低氧洞穴内能保存2000年。</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/v2-3a87337dcc4228cca7299d54398b9912_720w.jpg" alt="Github托管的代码和博客被封存送往北极了"></p>
+<p>这些代码将保存在挪威斯瓦尔巴特群岛（Svalbard）废弃的煤矿中，该煤矿被选为托管全球种子库的城市。斯瓦尔巴特永久冻土是地球上最北端的城市之一，可以延伸到地表以下数百米。档案管理员认为，寒冷和接近恒定的条件可以帮助保存。</p>
+<p>2020年2月2日开始，数千个流行的GitHub项目（例如Blockchain，WordPress）和编程语言（如Rust或Ruby）加入了Arctic Code Vault计划，2020年2月扩展到所有公共存储库。</p>
+<p>而且就在昨天 GitHub公布了一组照片，你的代码上周已经被打包运往北极保存。只要你<strong>2月2日</strong>以前贡献过的开源代码，现在都已经被埋在北极的冰雪之下，<strong>保存一千年</strong>。 </p>
+<p><img src="http://www.improve.ga/improve.github.io//img/45b609f0b337020aee73c7b589f785c8_720w.jpg" alt="Github托管的代码和博客被封存送往北极了"></p>
+<h4 id="人类文明的火种？"><a href="#人类文明的火种？" class="headerlink" title="人类文明的火种？"></a>人类文明的火种？</h4><p>GitHub说，开源代码是全人类共有的财产，即使人类文明遭战火毁灭，希望未来也可以用这些代码快速重建科技。</p>
+<p>因此他们公布了一项代码存档计划Arctic Code Vault，要把它们埋藏在北极的地下，保存1000年。</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/v2-a62848a789da01cba901b8a052119a5a_720w.jpg" alt="Github托管的代码和博客被封存送往北极了"></p>
+<p>存入胶片中的repo由项目的标星数、依赖项以及专家顾问的意见所决定，并且会剔除正在活跃的项目。</p>
+<p>储存的快照将由每个repo默认分支的HEAD组成，并且会去掉任何大于100KB的二进制文件。每个repo将打包为一个TAR文件。</p>
+<p>然后胶片将被放在钢壁容器中，放置于斯瓦尔巴特群岛废弃矿井的密封室中。</p>
+<p>之所以选择斯瓦尔巴群岛，是因为这里属于国际公约规定的非军事区，可以免遭战火的袭扰。而且这里常年寒冷，有几百米厚的冻土层。稳定且寒冷的环境非常适合存储胶片。</p>
+<p>存入胶片中的repo由项目的标星数、依赖项以及专家顾问的意见所决定，并且会剔除正在活跃的项目。</p>
+<p>储存的快照将由每个repo默认分支的HEAD组成，并且会去掉任何大于100KB的二进制文件。每个repo将打包为一个TAR文件。</p>
+<p>然后胶片将被放在钢壁容器中，放置于斯瓦尔巴特群岛废弃矿井的密封室中。</p>
+<p>之所以选择斯瓦尔巴群岛，是因为这里属于国际公约规定的非军事区，可以免遭战火的袭扰。而且这里常年寒冷，有几百米厚的冻土层。稳定且寒冷的环境非常适合存储胶片。</p>
+<h4 id="心里话"><a href="#心里话" class="headerlink" title="心里话"></a>心里话</h4><p>虽然可以亲身参与到这个计划中，确实有点自豪感。但是但是。。。 一想到我写的辣鸡代码会被封存几千年，我这是被钉在历史的耻辱柱上了嘛。 也不知道几年前后的人类看到 我写的代码会不会笑死哈哈。</p>
 
     </div>
 
     <div class="article-nav">
         
-            <div class="article-prev">
-                <a class="prev btn" rel="prev"
-                   href="/2020/07/19/0719/"><i class="fa fa-chevron-left"></i> 遭受暴击  我的在Github托管的代码和博客被封存送往北极了
-                </a>
-            </div>
-        
         
             <div class="article-next">
                 <a class="next btn" rel="next"
-                   href="/2020/05/16/0516/">文采学堂自动刷课脚本及使用教程 <i class="fa fa-chevron-right"></i>
+                   href="/2020/06/09/0609/">学Python遇到那些坑，引用random随机数模块的问题 <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
         
@@ -198,7 +203,7 @@
             <div class="sidebar-toc">
                 <div class="post-toc-wrap">
     <div class="post-toc">
-        
+        <ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#什么是Arctic-Code-Vault？"><span class="nav-number">1.</span> <span class="nav-text">什么是Arctic Code Vault？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#人类文明的火种？"><span class="nav-number">2.</span> <span class="nav-text">人类文明的火种？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#心里话"><span class="nav-number">3.</span> <span class="nav-text">心里话</span></a></li></ol>
     </div>
 </div>
             </div>
