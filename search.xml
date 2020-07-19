@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>测试Hexo图片的上传功能</title>
+    <url>/2020/04/19/ceshi/</url>
+    <content><![CDATA[<h2 id="测试图片上传功能"><a href="#测试图片上传功能" class="headerlink" title="测试图片上传功能"></a>测试图片上传功能</h2><p>下面为示例图，测试图片功能<br><img src="/2020/04/19/ceshi/1.jpg" alt="示例图"></p>
+<p>在这里强烈建议一下Hexo 出一个可以同步的可视化文章编辑工具  用一些代码编辑器写文章是真的累。</p>
+]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>QQ和微信上网址被拦截的解决办法</title>
+    <url>/2020/04/22/0419/</url>
+    <content><![CDATA[<p><strong>QQ和微信上网址被拦截的解决办法</strong></p>
+<p><img src="http://www.improve.ga/improve.github.io//img/20200422224556.jpg" alt="QQ和微信上网址被拦截的解决办法"></p>
+<p>如图我们被拦截可以点击左下角的申请恢复访问然后按照提示即可</p>
+<p>24小时内 腾讯便会邮箱回复结果</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/20200422230118.png" alt="QQ和微信上网址被拦截的解决办法"></p>
+<p>也可通过腾讯的官方网站进行申诉解决<br>官网：<a href="https://urlsec.qq.com/complain.html" target="_blank" rel="noopener">https://urlsec.qq.com/complain.html</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Github图库测试</title>
+    <url>/2020/04/20/Github%E5%9B%BE%E5%BA%8A%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[<p><strong>本帖为测试Github图库测试</strong><br>实例：<br><img src="http://www.improve.ga/improve.github.io//img/15194389-cacc481080cf629e.webp" alt="测试Github图库示例图片"></p>
+]]></content>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>扫码挪车二维码生成程序开源</title>
     <url>/2020/04/19/0422/</url>
     <content><![CDATA[<p>疫情宅在家里，属实是无聊透顶，博主为了打磨时间于是就尝试着写了一个扫码挪车二维码的生成程序。效果如下：</p>
@@ -17,94 +47,6 @@
 ]]></content>
       <tags>
         <tag>Github项目开源</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>遭受暴击  我的在Github托管的代码和博客被封存送往北极了</title>
-    <url>/2020/07/19/0719/</url>
-    <content><![CDATA[<p>事情是这样的，今天突然发现我的GitHub主页上出现了一个新的徽章「Arctic Code Vault Contributor」，翻译过来是「北极代码保险库贡献者」，好奇心驱使下我就对这个Arctic Code Vault（北极代码保险库）了解了一番。 一了解不要紧，瞬间感觉五雷轰顶。</p>
-<p><img src="http://www.improve.ga/improve.github.io//img/vea20200719152553.png" alt="Github托管的代码和博客被封存送往北极了"></p>
-<h4 id="什么是Arctic-Code-Vault？"><a href="#什么是Arctic-Code-Vault？" class="headerlink" title="什么是Arctic Code Vault？"></a>什么是Arctic Code Vault？</h4><p>Arctic Code Vault是GitHub在2019年11月14日公开的计划，这个计划主要内容是将开源代码长期保存下来，使用Piql AS公司制造的胶片，表面有氧化铁粉涂层，Piql称在正常条件下这种材料能保存750年，在寒冷干燥低氧洞穴内能保存2000年。</p>
-<p><img src="http://www.improve.ga/improve.github.io//img/v2-3a87337dcc4228cca7299d54398b9912_720w.jpg" alt="Github托管的代码和博客被封存送往北极了"></p>
-<p>这些代码将保存在挪威斯瓦尔巴特群岛（Svalbard）废弃的煤矿中，该煤矿被选为托管全球种子库的城市。斯瓦尔巴特永久冻土是地球上最北端的城市之一，可以延伸到地表以下数百米。档案管理员认为，寒冷和接近恒定的条件可以帮助保存。</p>
-<p>2020年2月2日开始，数千个流行的GitHub项目（例如Blockchain，WordPress）和编程语言（如Rust或Ruby）加入了Arctic Code Vault计划，2020年2月扩展到所有公共存储库。</p>
-<p>而且就在昨天 GitHub公布了一组照片，你的代码上周已经被打包运往北极保存。只要你<strong>2月2日</strong>以前贡献过的开源代码，现在都已经被埋在北极的冰雪之下，<strong>保存一千年</strong>。 </p>
-<p><img src="http://www.improve.ga/improve.github.io//img/45b609f0b337020aee73c7b589f785c8_720w.jpg" alt="Github托管的代码和博客被封存送往北极了"></p>
-<h4 id="人类文明的火种？"><a href="#人类文明的火种？" class="headerlink" title="人类文明的火种？"></a>人类文明的火种？</h4><p>GitHub说，开源代码是全人类共有的财产，即使人类文明遭战火毁灭，希望未来也可以用这些代码快速重建科技。</p>
-<p>因此他们公布了一项代码存档计划Arctic Code Vault，要把它们埋藏在北极的地下，保存1000年。</p>
-<p><img src="http://www.improve.ga/improve.github.io//img/v2-a62848a789da01cba901b8a052119a5a_720w.jpg" alt="Github托管的代码和博客被封存送往北极了"></p>
-<p>存入胶片中的repo由项目的标星数、依赖项以及专家顾问的意见所决定，并且会剔除正在活跃的项目。</p>
-<p>储存的快照将由每个repo默认分支的HEAD组成，并且会去掉任何大于100KB的二进制文件。每个repo将打包为一个TAR文件。</p>
-<p>然后胶片将被放在钢壁容器中，放置于斯瓦尔巴特群岛废弃矿井的密封室中。</p>
-<p>之所以选择斯瓦尔巴群岛，是因为这里属于国际公约规定的非军事区，可以免遭战火的袭扰。而且这里常年寒冷，有几百米厚的冻土层。稳定且寒冷的环境非常适合存储胶片。</p>
-<p>存入胶片中的repo由项目的标星数、依赖项以及专家顾问的意见所决定，并且会剔除正在活跃的项目。</p>
-<p>储存的快照将由每个repo默认分支的HEAD组成，并且会去掉任何大于100KB的二进制文件。每个repo将打包为一个TAR文件。</p>
-<p>然后胶片将被放在钢壁容器中，放置于斯瓦尔巴特群岛废弃矿井的密封室中。</p>
-<p>之所以选择斯瓦尔巴群岛，是因为这里属于国际公约规定的非军事区，可以免遭战火的袭扰。而且这里常年寒冷，有几百米厚的冻土层。稳定且寒冷的环境非常适合存储胶片。</p>
-<h4 id="心里话"><a href="#心里话" class="headerlink" title="心里话"></a>心里话</h4><p>虽然可以亲身参与到这个计划中，确实有点自豪感。但是但是。。。 一想到我写的辣鸡代码会被封存几千年，我这是被钉在历史的耻辱柱上了嘛。 也不知道几年前后的人类看到 我写的代码会不会笑死哈哈。</p>
-]]></content>
-      <tags>
-        <tag>Arctic Code Vault</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>学Python遇到那些坑，引用random随机数模块的问题</title>
-    <url>/2020/06/09/0609/</url>
-    <content><![CDATA[<p> 今天学随机数的时候遇到的问题，运行报下边的错误。</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">ImportError: cannot <span class="keyword">import</span> name <span class="string">'randint'</span> <span class="keyword">from</span> partially initialized module <span class="string">'random'</span> (most likely due to a circular <span class="keyword">import</span>) (G:\python-study\random.py)</span><br></pre></td></tr></table></figure>
-
-<p>如图:</p>
-<p><img src="http://www.improve.ga/improve.github.io//img/20200609103137.jpg" alt="Python"></p>
-<p>产生这样问题的原因也很简单，因为我在给文件名的时候用到了 random.py </p>
-<p>跟引用的random库名重复。工作目录包含在导入语句的搜素路径中，有任何试图使用标准库中的文件都会优先返回工作路径中的文件，而不去搜索python配置路径下的lib中的标准文件。</p>
-<p>我重命名文件为rand.py后，执行正常。　</p>
-<p><img src="http://www.improve.ga/improve.github.io//img/hafhafhafjahifhusfhs.png" alt="Python"></p>
-]]></content>
-      <tags>
-        <tag>python</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>文采学堂自动刷课脚本及使用教程</title>
-    <url>/2020/05/16/0516/</url>
-    <content><![CDATA[<p>今天小编打开 文采学堂app打算刷网课 ，发现每个视频想要达到学习要求只要观看一分钟。而app的自动播放下一个视频需要，完整观看整个视频。这非常不利于我们睡觉的时候挂课。 于是我就写了个文采学堂自动刷课的脚本</p>
-<h4 id="需要用到的工具"><a href="#需要用到的工具" class="headerlink" title="需要用到的工具"></a>需要用到的工具</h4><pre><code>1. 手机
-   2. 按键精灵app
-   3. 还算正常的脑子及动手能力</code></pre><h4 id="开始教学"><a href="#开始教学" class="headerlink" title="开始教学"></a>开始教学</h4><p>​        首先，先在手机的应用市场里下载按键精灵。</p>
-<p><img src="http://www.improve.ga/improve.github.io//img/16320832.jpg" alt="按键精灵"></p>
-<p>然后，打开软件按图片操作(可能需要注册个账号)</p>
-<p><img src="http://www.improve.ga/improve.github.io//img/S00516-16322477.jpg" alt></p>
-<p>新建脚本，然后编辑 把以下内容复制进去。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Delay 921- TickCount()</span><br><span class="line"> TouchDownEvent 798,1004,0</span><br><span class="line">Delay 995- TickCount()</span><br><span class="line"> TouchUpEvent 0</span><br><span class="line">Delay 63628- TickCount()</span><br><span class="line"> TouchDownEvent 684,1632,0</span><br><span class="line">TouchMoveEvent 684,1631,0,41</span><br><span class="line">TouchMoveEvent 684,1630,0,9</span><br><span class="line">TouchMoveEvent 684,1628,0,9</span><br><span class="line">TouchMoveEvent 684,1625,0,7</span><br><span class="line">TouchMoveEvent 685,1622,0,9</span><br><span class="line">TouchMoveEvent 686,1618,0,8</span><br><span class="line">TouchMoveEvent 687,1615,0,8</span><br><span class="line">TouchMoveEvent 688,1612,0,8</span><br><span class="line">TouchMoveEvent 689,1609,0,9</span><br><span class="line">TouchMoveEvent 690,1606,0,8</span><br><span class="line">TouchMoveEvent 691,1603,0,9</span><br><span class="line">TouchMoveEvent 692,1600,0,8</span><br><span class="line">TouchMoveEvent 693,1598,0,9</span><br><span class="line">TouchMoveEvent 694,1595,0,7</span><br><span class="line">TouchMoveEvent 695,1592,0,9</span><br><span class="line">TouchMoveEvent 696,1590,0,9</span><br><span class="line">TouchMoveEvent 697,1588,0,8</span><br><span class="line">TouchMoveEvent 697,1586,0,8</span><br><span class="line">TouchMoveEvent 697,1584,0,8</span><br><span class="line">TouchMoveEvent 698,1582,0,9</span><br><span class="line">TouchMoveEvent 699,1580,0,8</span><br><span class="line">TouchMoveEvent 699,1578,0,8</span><br><span class="line">TouchMoveEvent 699,1576,0,9</span><br><span class="line">TouchMoveEvent 700,1574,0,8</span><br><span class="line">TouchMoveEvent 701,1572,0,8</span><br><span class="line">TouchMoveEvent 701,1571,0,8</span><br><span class="line">TouchMoveEvent 702,1569,0,9</span><br><span class="line">TouchMoveEvent 703,1567,0,10</span><br><span class="line">TouchMoveEvent 703,1565,0,7</span><br><span class="line">TouchMoveEvent 704,1563,0,9</span><br><span class="line">TouchMoveEvent 704,1561,0,7</span><br><span class="line">TouchMoveEvent 705,1559,0,9</span><br><span class="line">TouchMoveEvent 705,1557,0,8</span><br><span class="line">TouchMoveEvent 706,1555,0,9</span><br><span class="line">TouchMoveEvent 706,1553,0,8</span><br><span class="line">TouchMoveEvent 706,1551,0,9</span><br><span class="line">TouchMoveEvent 706,1549,0,7</span><br><span class="line">TouchMoveEvent 706,1548,0,8</span><br><span class="line">TouchMoveEvent 707,1546,0,9</span><br><span class="line">TouchMoveEvent 707,1545,0,9</span><br><span class="line">TouchMoveEvent 707,1544,0,9</span><br><span class="line">TouchMoveEvent 708,1543,0,7</span><br><span class="line">TouchMoveEvent 708,1541,0,8</span><br><span class="line">TouchMoveEvent 709,1539,0,8</span><br><span class="line">TouchMoveEvent 710,1538,0,9</span><br><span class="line">TouchMoveEvent 710,1536,0,12</span><br><span class="line">TouchMoveEvent 710,1535,0,5</span><br><span class="line">TouchMoveEvent 710,1534,0,9</span><br><span class="line">TouchMoveEvent 710,1533,0,8</span><br><span class="line">TouchMoveEvent 710,1532,0,26</span><br><span class="line">TouchMoveEvent 710,1531,0,17</span><br><span class="line">TouchMoveEvent 710,1530,0,7</span><br><span class="line">TouchMoveEvent 710,1529,0,8</span><br><span class="line">TouchMoveEvent 710,1528,0,16</span><br><span class="line">TouchMoveEvent 710,1527,0,8</span><br><span class="line">TouchMoveEvent 711,1526,0,8</span><br><span class="line">TouchMoveEvent 711,1525,0,9</span><br><span class="line">TouchMoveEvent 711,1524,0,8</span><br><span class="line">TouchMoveEvent 711,1523,0,9</span><br><span class="line">TouchMoveEvent 711,1522,0,8</span><br><span class="line">TouchMoveEvent 712,1521,0,9</span><br><span class="line">TouchMoveEvent 712,1520,0,8</span><br><span class="line">TouchMoveEvent 712,1519,0,7</span><br><span class="line">TouchMoveEvent 712,1518,0,17</span><br><span class="line">TouchMoveEvent 712,1517,0,9</span><br><span class="line">TouchMoveEvent 712,1516,0,8</span><br><span class="line">TouchMoveEvent 712,1515,0,9</span><br><span class="line">TouchMoveEvent 712,1514,0,8</span><br><span class="line">TouchMoveEvent 712,1513,0,7</span><br><span class="line">TouchMoveEvent 713,1512,0,9</span><br><span class="line">TouchMoveEvent 713,1511,0,9</span><br><span class="line">TouchMoveEvent 713,1510,0,8</span><br><span class="line">TouchMoveEvent 713,1509,0,9</span><br><span class="line">TouchMoveEvent 713,1508,0,7</span><br><span class="line">TouchMoveEvent 713,1507,0,8</span><br><span class="line">TouchMoveEvent 713,1506,0,9</span><br><span class="line">TouchMoveEvent 713,1505,0,9</span><br><span class="line">TouchMoveEvent 713,1504,0,8</span><br><span class="line">TouchMoveEvent 713,1503,0,8</span><br><span class="line">TouchMoveEvent 713,1502,0,25</span><br><span class="line">TouchMoveEvent 713,1501,0,9</span><br><span class="line">TouchMoveEvent 713,1500,0,9</span><br><span class="line">TouchMoveEvent 713,1499,0,16</span><br><span class="line">TouchMoveEvent 713,1500,0,99</span><br><span class="line">TouchMoveEvent 713,1501,0,8</span><br><span class="line">TouchMoveEvent 714,1501,0,9</span><br><span class="line">TouchMoveEvent 715,1500,0,7</span><br><span class="line">Delay 64553- TickCount()</span><br><span class="line"> TouchUpEvent 0</span><br><span class="line">Delay 65696- TickCount()</span><br><span class="line"> TouchDownEvent 1078,1576,0</span><br><span class="line">Delay 65706- TickCount()</span><br><span class="line"> TouchUpEvent 0</span><br><span class="line">Delay 66771- TickCount()</span><br><span class="line"> TouchDownEvent 1076,1571,0</span><br><span class="line">Delay 66773- TickCount()</span><br><span class="line"> TouchUpEvent 0</span><br><span class="line">Delay 67577- TickCount()</span><br><span class="line"> TouchDownEvent 1045,1583,0</span><br><span class="line">Delay 67586- TickCount()</span><br><span class="line"> TouchUpEvent 0</span><br><span class="line">Delay 68237 - TickCount()</span><br></pre></td></tr></table></figure>
-
-<p>然后保存，运行就可以了 。</p>
-<h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><p>运行脚本前，请按下图将右边的箭头全部打开。</p>
-<p><img src="http://www.improve.ga/improve.github.io//img/16391726.jpg" alt></p>
-<p>小伙伴们如果在使用中，有啥问题可以通过 <strong>关于</strong> 的联系方式 联系我。</p>
-<blockquote>
-<p>本站所有内容，如非注明均为原创，未经授权禁止转载。</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>脚本,文采学堂</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>白嫖宝塔面板专业版</title>
-    <url>/2020/05/15/0515/</url>
-    <content><![CDATA[<p>相信自己搭过网站的小伙伴们，都用过宝塔 就算没用过 那也肯定或多或少的听说过宝塔。</p>
-<p>宝塔是一款可以一键搭建web环境的运维面板， 支持一键LAMP/LNMP/集群/监控/网站/FTP/数据库/JAVA等100多项服务器管理功能 。虽然我没在用 但是也确实挺好用。</p>
-<p><img src="http://www.improve.ga/improve.github.io//img/-3ae4fa4b1d9a88ca.jpg" alt="宝塔"></p>
-<p>宝塔分为免费版和付费版，我们平常使用是免费版 今天教大家如何白嫖专业版 。</p>
-<h3 id="白嫖宝塔专业版"><a href="#白嫖宝塔专业版" class="headerlink" title="白嫖宝塔专业版"></a>白嫖宝塔专业版</h3><p>输入以下命令</p>
-<blockquote>
-<p> curl -s -k <a href="https://api.moleft.cn/bt/update" target="_blank" rel="noopener">https://api.moleft.cn/bt/update</a> | bash -s - </p>
-</blockquote>
-<p>在此感谢这位群友的贡献</p>
-<p><img src="http://www.improve.ga/improve.github.io//img/79ef87112f2ba956.png" alt></p>
-]]></content>
-      <tags>
-        <tag>宝塔</tag>
       </tags>
   </entry>
   <entry>
@@ -133,33 +75,91 @@
       </tags>
   </entry>
   <entry>
-    <title>QQ和微信上网址被拦截的解决办法</title>
-    <url>/2020/04/22/0419/</url>
-    <content><![CDATA[<p><strong>QQ和微信上网址被拦截的解决办法</strong></p>
-<p><img src="http://www.improve.ga/improve.github.io//img/20200422224556.jpg" alt="QQ和微信上网址被拦截的解决办法"></p>
-<p>如图我们被拦截可以点击左下角的申请恢复访问然后按照提示即可</p>
-<p>24小时内 腾讯便会邮箱回复结果</p>
-<p><img src="http://www.improve.ga/improve.github.io//img/20200422230118.png" alt="QQ和微信上网址被拦截的解决办法"></p>
-<p>也可通过腾讯的官方网站进行申诉解决<br>官网：<a href="https://urlsec.qq.com/complain.html" target="_blank" rel="noopener">https://urlsec.qq.com/complain.html</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Github图库测试</title>
-    <url>/2020/04/20/Github%E5%9B%BE%E5%BA%8A%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<p><strong>本帖为测试Github图库测试</strong><br>实例：<br><img src="http://www.improve.ga/improve.github.io//img/15194389-cacc481080cf629e.webp" alt="测试Github图库示例图片"></p>
+    <title>白嫖宝塔面板专业版</title>
+    <url>/2020/05/15/0515/</url>
+    <content><![CDATA[<p>相信自己搭过网站的小伙伴们，都用过宝塔 就算没用过 那也肯定或多或少的听说过宝塔。</p>
+<p>宝塔是一款可以一键搭建web环境的运维面板， 支持一键LAMP/LNMP/集群/监控/网站/FTP/数据库/JAVA等100多项服务器管理功能 。虽然我没在用 但是也确实挺好用。</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/-3ae4fa4b1d9a88ca.jpg" alt="宝塔"></p>
+<p>宝塔分为免费版和付费版，我们平常使用是免费版 今天教大家如何白嫖专业版 。</p>
+<h3 id="白嫖宝塔专业版"><a href="#白嫖宝塔专业版" class="headerlink" title="白嫖宝塔专业版"></a>白嫖宝塔专业版</h3><p>输入以下命令</p>
+<blockquote>
+<p> curl -s -k <a href="https://api.moleft.cn/bt/update" target="_blank" rel="noopener">https://api.moleft.cn/bt/update</a> | bash -s - </p>
+</blockquote>
+<p>在此感谢这位群友的贡献</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/79ef87112f2ba956.png" alt></p>
 ]]></content>
       <tags>
-        <tag>测试</tag>
+        <tag>宝塔</tag>
       </tags>
   </entry>
   <entry>
-    <title>测试Hexo图片的上传功能</title>
-    <url>/2020/04/19/ceshi/</url>
-    <content><![CDATA[<h2 id="测试图片上传功能"><a href="#测试图片上传功能" class="headerlink" title="测试图片上传功能"></a>测试图片上传功能</h2><p>下面为示例图，测试图片功能<br><img src="/2020/04/19/ceshi/1.jpg" alt="示例图"></p>
-<p>在这里强烈建议一下Hexo 出一个可以同步的可视化文章编辑工具  用一些代码编辑器写文章是真的累。</p>
+    <title>文采学堂自动刷课脚本及使用教程</title>
+    <url>/2020/05/16/0516/</url>
+    <content><![CDATA[<p>今天小编打开 文采学堂app打算刷网课 ，发现每个视频想要达到学习要求只要观看一分钟。而app的自动播放下一个视频需要，完整观看整个视频。这非常不利于我们睡觉的时候挂课。 于是我就写了个文采学堂自动刷课的脚本</p>
+<h4 id="需要用到的工具"><a href="#需要用到的工具" class="headerlink" title="需要用到的工具"></a>需要用到的工具</h4><pre><code>1. 手机
+   2. 按键精灵app
+   3. 还算正常的脑子及动手能力</code></pre><h4 id="开始教学"><a href="#开始教学" class="headerlink" title="开始教学"></a>开始教学</h4><p>​        首先，先在手机的应用市场里下载按键精灵。</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/16320832.jpg" alt="按键精灵"></p>
+<p>然后，打开软件按图片操作(可能需要注册个账号)</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/S00516-16322477.jpg" alt></p>
+<p>新建脚本，然后编辑 把以下内容复制进去。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Delay 921- TickCount()</span><br><span class="line"> TouchDownEvent 798,1004,0</span><br><span class="line">Delay 995- TickCount()</span><br><span class="line"> TouchUpEvent 0</span><br><span class="line">Delay 63628- TickCount()</span><br><span class="line"> TouchDownEvent 684,1632,0</span><br><span class="line">TouchMoveEvent 684,1631,0,41</span><br><span class="line">TouchMoveEvent 684,1630,0,9</span><br><span class="line">TouchMoveEvent 684,1628,0,9</span><br><span class="line">TouchMoveEvent 684,1625,0,7</span><br><span class="line">TouchMoveEvent 685,1622,0,9</span><br><span class="line">TouchMoveEvent 686,1618,0,8</span><br><span class="line">TouchMoveEvent 687,1615,0,8</span><br><span class="line">TouchMoveEvent 688,1612,0,8</span><br><span class="line">TouchMoveEvent 689,1609,0,9</span><br><span class="line">TouchMoveEvent 690,1606,0,8</span><br><span class="line">TouchMoveEvent 691,1603,0,9</span><br><span class="line">TouchMoveEvent 692,1600,0,8</span><br><span class="line">TouchMoveEvent 693,1598,0,9</span><br><span class="line">TouchMoveEvent 694,1595,0,7</span><br><span class="line">TouchMoveEvent 695,1592,0,9</span><br><span class="line">TouchMoveEvent 696,1590,0,9</span><br><span class="line">TouchMoveEvent 697,1588,0,8</span><br><span class="line">TouchMoveEvent 697,1586,0,8</span><br><span class="line">TouchMoveEvent 697,1584,0,8</span><br><span class="line">TouchMoveEvent 698,1582,0,9</span><br><span class="line">TouchMoveEvent 699,1580,0,8</span><br><span class="line">TouchMoveEvent 699,1578,0,8</span><br><span class="line">TouchMoveEvent 699,1576,0,9</span><br><span class="line">TouchMoveEvent 700,1574,0,8</span><br><span class="line">TouchMoveEvent 701,1572,0,8</span><br><span class="line">TouchMoveEvent 701,1571,0,8</span><br><span class="line">TouchMoveEvent 702,1569,0,9</span><br><span class="line">TouchMoveEvent 703,1567,0,10</span><br><span class="line">TouchMoveEvent 703,1565,0,7</span><br><span class="line">TouchMoveEvent 704,1563,0,9</span><br><span class="line">TouchMoveEvent 704,1561,0,7</span><br><span class="line">TouchMoveEvent 705,1559,0,9</span><br><span class="line">TouchMoveEvent 705,1557,0,8</span><br><span class="line">TouchMoveEvent 706,1555,0,9</span><br><span class="line">TouchMoveEvent 706,1553,0,8</span><br><span class="line">TouchMoveEvent 706,1551,0,9</span><br><span class="line">TouchMoveEvent 706,1549,0,7</span><br><span class="line">TouchMoveEvent 706,1548,0,8</span><br><span class="line">TouchMoveEvent 707,1546,0,9</span><br><span class="line">TouchMoveEvent 707,1545,0,9</span><br><span class="line">TouchMoveEvent 707,1544,0,9</span><br><span class="line">TouchMoveEvent 708,1543,0,7</span><br><span class="line">TouchMoveEvent 708,1541,0,8</span><br><span class="line">TouchMoveEvent 709,1539,0,8</span><br><span class="line">TouchMoveEvent 710,1538,0,9</span><br><span class="line">TouchMoveEvent 710,1536,0,12</span><br><span class="line">TouchMoveEvent 710,1535,0,5</span><br><span class="line">TouchMoveEvent 710,1534,0,9</span><br><span class="line">TouchMoveEvent 710,1533,0,8</span><br><span class="line">TouchMoveEvent 710,1532,0,26</span><br><span class="line">TouchMoveEvent 710,1531,0,17</span><br><span class="line">TouchMoveEvent 710,1530,0,7</span><br><span class="line">TouchMoveEvent 710,1529,0,8</span><br><span class="line">TouchMoveEvent 710,1528,0,16</span><br><span class="line">TouchMoveEvent 710,1527,0,8</span><br><span class="line">TouchMoveEvent 711,1526,0,8</span><br><span class="line">TouchMoveEvent 711,1525,0,9</span><br><span class="line">TouchMoveEvent 711,1524,0,8</span><br><span class="line">TouchMoveEvent 711,1523,0,9</span><br><span class="line">TouchMoveEvent 711,1522,0,8</span><br><span class="line">TouchMoveEvent 712,1521,0,9</span><br><span class="line">TouchMoveEvent 712,1520,0,8</span><br><span class="line">TouchMoveEvent 712,1519,0,7</span><br><span class="line">TouchMoveEvent 712,1518,0,17</span><br><span class="line">TouchMoveEvent 712,1517,0,9</span><br><span class="line">TouchMoveEvent 712,1516,0,8</span><br><span class="line">TouchMoveEvent 712,1515,0,9</span><br><span class="line">TouchMoveEvent 712,1514,0,8</span><br><span class="line">TouchMoveEvent 712,1513,0,7</span><br><span class="line">TouchMoveEvent 713,1512,0,9</span><br><span class="line">TouchMoveEvent 713,1511,0,9</span><br><span class="line">TouchMoveEvent 713,1510,0,8</span><br><span class="line">TouchMoveEvent 713,1509,0,9</span><br><span class="line">TouchMoveEvent 713,1508,0,7</span><br><span class="line">TouchMoveEvent 713,1507,0,8</span><br><span class="line">TouchMoveEvent 713,1506,0,9</span><br><span class="line">TouchMoveEvent 713,1505,0,9</span><br><span class="line">TouchMoveEvent 713,1504,0,8</span><br><span class="line">TouchMoveEvent 713,1503,0,8</span><br><span class="line">TouchMoveEvent 713,1502,0,25</span><br><span class="line">TouchMoveEvent 713,1501,0,9</span><br><span class="line">TouchMoveEvent 713,1500,0,9</span><br><span class="line">TouchMoveEvent 713,1499,0,16</span><br><span class="line">TouchMoveEvent 713,1500,0,99</span><br><span class="line">TouchMoveEvent 713,1501,0,8</span><br><span class="line">TouchMoveEvent 714,1501,0,9</span><br><span class="line">TouchMoveEvent 715,1500,0,7</span><br><span class="line">Delay 64553- TickCount()</span><br><span class="line"> TouchUpEvent 0</span><br><span class="line">Delay 65696- TickCount()</span><br><span class="line"> TouchDownEvent 1078,1576,0</span><br><span class="line">Delay 65706- TickCount()</span><br><span class="line"> TouchUpEvent 0</span><br><span class="line">Delay 66771- TickCount()</span><br><span class="line"> TouchDownEvent 1076,1571,0</span><br><span class="line">Delay 66773- TickCount()</span><br><span class="line"> TouchUpEvent 0</span><br><span class="line">Delay 67577- TickCount()</span><br><span class="line"> TouchDownEvent 1045,1583,0</span><br><span class="line">Delay 67586- TickCount()</span><br><span class="line"> TouchUpEvent 0</span><br><span class="line">Delay 68237 - TickCount()</span><br></pre></td></tr></table></figure>
+
+<p>然后保存，运行就可以了 。</p>
+<h4 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h4><p>运行脚本前，请按下图将右边的箭头全部打开。</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/16391726.jpg" alt></p>
+<p>小伙伴们如果在使用中，有啥问题可以通过 <strong>关于</strong> 的联系方式 联系我。</p>
+<blockquote>
+<p>本站所有内容，如非注明均为原创，未经授权禁止转载。</p>
+</blockquote>
 ]]></content>
       <tags>
-        <tag>Hexo</tag>
+        <tag>脚本,文采学堂</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学Python遇到那些坑，引用random随机数模块的问题</title>
+    <url>/2020/06/09/0609/</url>
+    <content><![CDATA[<p> 今天学随机数的时候遇到的问题，运行报下边的错误。</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line">ImportError: cannot <span class="keyword">import</span> name <span class="string">'randint'</span> <span class="keyword">from</span> partially initialized module <span class="string">'random'</span> (most likely due to a circular <span class="keyword">import</span>) (G:\python-study\random.py)</span><br></pre></td></tr></table></figure>
+
+<p>如图:</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/20200609103137.jpg" alt="Python"></p>
+<p>产生这样问题的原因也很简单，因为我在给文件名的时候用到了 random.py </p>
+<p>跟引用的random库名重复。工作目录包含在导入语句的搜素路径中，有任何试图使用标准库中的文件都会优先返回工作路径中的文件，而不去搜索python配置路径下的lib中的标准文件。</p>
+<p>我重命名文件为rand.py后，执行正常。　</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/hafhafhafjahifhusfhs.png" alt="Python"></p>
+]]></content>
+      <tags>
+        <tag>python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>遭受暴击  我在Github托管的代码和博客被封存送往北极了</title>
+    <url>/2020/07/19/0719/</url>
+    <content><![CDATA[<p>事情是这样的，今天突然发现我的GitHub主页上出现了一个新的徽章「Arctic Code Vault Contributor」，翻译过来是「北极代码保险库贡献者」，好奇心驱使下我就对这个Arctic Code Vault（北极代码保险库）了解了一番。 一了解不要紧，瞬间感觉五雷轰顶。</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/vea20200719152553.png" alt="Github托管的代码和博客被封存送往北极了"></p>
+<h4 id="什么是Arctic-Code-Vault？"><a href="#什么是Arctic-Code-Vault？" class="headerlink" title="什么是Arctic Code Vault？"></a>什么是Arctic Code Vault？</h4><p>Arctic Code Vault是GitHub在2019年11月14日公开的计划，这个计划主要内容是将开源代码长期保存下来，使用Piql AS公司制造的胶片，表面有氧化铁粉涂层，Piql称在正常条件下这种材料能保存750年，在寒冷干燥低氧洞穴内能保存2000年。</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/v2-3a87337dcc4228cca7299d54398b9912_720w.jpg" alt="Github托管的代码和博客被封存送往北极了"></p>
+<p>这些代码将保存在挪威斯瓦尔巴特群岛（Svalbard）废弃的煤矿中，该煤矿被选为托管全球种子库的城市。斯瓦尔巴特永久冻土是地球上最北端的城市之一，可以延伸到地表以下数百米。档案管理员认为，寒冷和接近恒定的条件可以帮助保存。</p>
+<p>2020年2月2日开始，数千个流行的GitHub项目（例如Blockchain，WordPress）和编程语言（如Rust或Ruby）加入了Arctic Code Vault计划，2020年2月扩展到所有公共存储库。</p>
+<p>而且就在昨天 GitHub公布了一组照片，你的代码上周已经被打包运往北极保存。只要你<strong>2月2日</strong>以前贡献过的开源代码，现在都已经被埋在北极的冰雪之下，<strong>保存一千年</strong>。 </p>
+<p><img src="http://www.improve.ga/improve.github.io//img/45b609f0b337020aee73c7b589f785c8_720w.jpg" alt="Github托管的代码和博客被封存送往北极了"></p>
+<h4 id="人类文明的火种？"><a href="#人类文明的火种？" class="headerlink" title="人类文明的火种？"></a>人类文明的火种？</h4><p>GitHub说，开源代码是全人类共有的财产，即使人类文明遭战火毁灭，希望未来也可以用这些代码快速重建科技。</p>
+<p>因此他们公布了一项代码存档计划Arctic Code Vault，要把它们埋藏在北极的地下，保存1000年。</p>
+<p><img src="http://www.improve.ga/improve.github.io//img/v2-a62848a789da01cba901b8a052119a5a_720w.jpg" alt="Github托管的代码和博客被封存送往北极了"></p>
+<p>存入胶片中的repo由项目的标星数、依赖项以及专家顾问的意见所决定，并且会剔除正在活跃的项目。</p>
+<p>储存的快照将由每个repo默认分支的HEAD组成，并且会去掉任何大于100KB的二进制文件。每个repo将打包为一个TAR文件。</p>
+<p>然后胶片将被放在钢壁容器中，放置于斯瓦尔巴特群岛废弃矿井的密封室中。</p>
+<p>之所以选择斯瓦尔巴群岛，是因为这里属于国际公约规定的非军事区，可以免遭战火的袭扰。而且这里常年寒冷，有几百米厚的冻土层。稳定且寒冷的环境非常适合存储胶片。</p>
+<p>存入胶片中的repo由项目的标星数、依赖项以及专家顾问的意见所决定，并且会剔除正在活跃的项目。</p>
+<p>储存的快照将由每个repo默认分支的HEAD组成，并且会去掉任何大于100KB的二进制文件。每个repo将打包为一个TAR文件。</p>
+<p>然后胶片将被放在钢壁容器中，放置于斯瓦尔巴特群岛废弃矿井的密封室中。</p>
+<p>之所以选择斯瓦尔巴群岛，是因为这里属于国际公约规定的非军事区，可以免遭战火的袭扰。而且这里常年寒冷，有几百米厚的冻土层。稳定且寒冷的环境非常适合存储胶片。</p>
+<h4 id="心里话"><a href="#心里话" class="headerlink" title="心里话"></a>心里话</h4><p>虽然可以亲身参与到这个计划中，确实有点自豪感。但是但是。。。 一想到我写的辣鸡代码会被封存几千年，我这是被钉在历史的耻辱柱上了嘛。 也不知道几年前后的人类看到 我写的代码会不会笑死哈哈。</p>
+]]></content>
+      <tags>
+        <tag>Arctic Code Vault</tag>
       </tags>
   </entry>
 </search>
